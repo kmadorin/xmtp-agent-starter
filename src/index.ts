@@ -1,5 +1,5 @@
 import { run, HandlerContext } from "@xmtp/message-kit";
-import runAgent from './agent.js';
+import runAgent from './agent_xml.js';
 
 run(async (context: HandlerContext) => {
 	// Get the message and the address from the sender
